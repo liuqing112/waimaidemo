@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca2fc2da-88d2-424f-a8d2-618e0d6bdaf6" name="Default Changelist" comment="奶茶外卖点单springcloud项目">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/snowy/southwind/AccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/snowy/southwind/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/snowy/southwind/dao/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/snowy/southwind/dao/UserMappero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/resources/mybatis/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/resources/mybatis/UserMappero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/classes/com/snowy/southwind/AccountApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/classes/com/snowy/southwind/controller/AccountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/classes/com/snowy/southwind/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/classes/com/snowy/southwind/dao/UserMappero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/classes/mybatis/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/target/classes/mybatis/UserMappero.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/src/main/java/com/snowy/southwind/bean/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/src/main/java/com/snowy/southwind/bean/AllVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/src/main/java/com/snowy/southwind/bean/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/src/main/java/com/snowy/southwind/bean/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/src/main/java/com/snowy/southwind/bean/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/src/main/java/com/snowy/southwind/bean/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/src/main/java/com/snowy/southwind/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/target/classes/com/snowy/southwind/bean/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/target/classes/com/snowy/southwind/bean/AllVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/target/classes/com/snowy/southwind/bean/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/target/classes/com/snowy/southwind/bean/Msg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/target/classes/com/snowy/southwind/bean/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/target/classes/com/snowy/southwind/bean/Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aispringcloud-api/target/classes/com/snowy/southwind/bean/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/AllClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/config/LoginHandlerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/controller/LoginHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/controller/MenuHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/controller/OrderHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/controller/UserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/controller/UserZHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/feign/AccountFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/feign/MenuFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/feign/OrderFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/feign/UserFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/feign/UserZFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/java/com/snowy/southwind/hystrix/UserZFeignHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/biej.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/images/mingri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/js/ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/menu_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/menu_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/menus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/order_handler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/user_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/user_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/src/main/resources/static/user_regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/META-INF/allclient.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/AllClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/config/LoginHandlerInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/config/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/controller/LoginHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/controller/MenuHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/controller/OrderHandle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/controller/UserHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/controller/UserZHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/feign/AccountFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/feign/MenuFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/feign/OrderFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/feign/UserFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/feign/UserZFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/com/snowy/southwind/hystrix/UserZFeignHystrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/biej.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/images/mingri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/js/ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/menu_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/menu_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/menus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/order_handler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/user_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/user_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allclient/target/classes/static/user_regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/src/main/java/com/snowy/southwind/AllZuullApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/target/allzuul-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/target/classes/com/snowy/southwind/AllZuullApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allzuul/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/java/com/snowy/southwind/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/shared/account-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/shared/allclient-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/shared/allhystrix-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/shared/allzuul-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/shared/menu-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/shared/order-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/shared/user-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/target/classes/com/snowy/southwind/ConfigServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/target/classes/shared/account-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/target/classes/shared/allclient-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/target/classes/shared/allhystrix-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/target/classes/shared/allzuul-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/target/classes/shared/menu-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/target/classes/shared/order-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configServer/target/classes/shared/user-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/java/com/snowy/southwind/MenuApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/java/com/snowy/southwind/controller/MenuConrtroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/java/com/snowy/southwind/dao/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/java/com/snowy/southwind/dao/TypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/resources/mybatis/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/resources/mybatis/TypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/target/classes/com/snowy/southwind/MenuApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/target/classes/com/snowy/southwind/controller/MenuConrtroller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/target/classes/com/snowy/southwind/dao/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/target/classes/com/snowy/southwind/dao/TypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/target/classes/mybatis/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/target/classes/mybatis/TypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/snowy/southwind/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/snowy/southwind/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/snowy/southwind/dao/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/mybatis/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/classes/com/snowy/southwind/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/classes/com/snowy/southwind/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/classes/com/snowy/southwind/dao/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/target/classes/mybatis/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/snowy/southwind/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/snowy/southwind/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/snowy/southwind/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/META-INF/user.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/com/snowy/southwind/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/com/snowy/southwind/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/com/snowy/southwind/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/target/classes/mybatis/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/src/main/java/com/snowy/southwind/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/snowy/southwind/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/target/classes/com/snowy/southwind/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/target/classes/com/snowy/southwind/EurekaServerApplication.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\waimaidome\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mVSnE4NAxaX42MOR3kfETJUgy3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.37383178" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\waimaidome\allclient\src\main\resources\static\images" />
+      <recent name="D:\waimaidome\allclient\src\main\resources\static" />
+      <recent name="D:\waimaidome\user\src\main\resources\mybatis" />
+      <recent name="D:\waimaidome\user\src\main" />
+      <recent name="D:\waimaidome\user\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.snowy.southwind" />
+      <recent name="com.snowy.southwind.dao" />
+      <recent name="com.snowy.southwind.controller" />
+      <recent name="com.snowy.southwind.feign" />
+      <recent name="com.snowy.southwind.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\waimaidome\allclient\src\main\resources\static\images" />
+      <recent name="D:\waimaidome\allclient\src\main\resources\static\layui\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AllClientApplication">
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowy.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowy.southwind.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="allclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowy.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowy.southwind.AllClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllZuullApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="allzuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowy.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowy.southwind.AllZuullApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="configServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowy.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowy.southwind.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eurekaserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowy.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowy.southwind.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="menu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowy.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowy.southwind.MenuApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowy.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowy.southwind.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.snowy.southwind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.snowy.southwind.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.MenuApplication" />
+        <item itemvalue="Spring Boot.AllZuullApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.3249428" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca2fc2da-88d2-424f-a8d2-618e0d6bdaf6" name="Default Changelist" comment="" />
+      <created>1609577429687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609577429687</updated>
+      <workItem from="1609577432731" duration="2690000" />
+      <workItem from="1609580238697" duration="3857000" />
+      <workItem from="1609635036772" duration="6422000" />
+      <workItem from="1609641508923" duration="3322000" />
+      <workItem from="1609660769970" duration="3157000" />
+      <workItem from="1609666004604" duration="5439000" />
+      <workItem from="1609671682496" duration="399000" />
+      <workItem from="1609672116555" duration="36494000" />
+      <workItem from="1609711679734" duration="2148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交项目测试" />
+    <MESSAGE value="奶茶外卖点单springcloud项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="奶茶外卖点单springcloud项目" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="7" key="#Project_Structure" timestamp="1609710884556">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="7" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1609710884556" />
+    <state x="446" y="38" key="#com.intellij.ide.util.MemberChooser" timestamp="1609699696072">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="446" y="38" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1609699696072" />
+    <state x="345" y="85" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1609669907477">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="345" y="85" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1280.689@0.0.1280.689" timestamp="1609669907477" />
+    <state x="288" y="273" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609697069349">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="288" y="273" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.689@0.0.1280.689" timestamp="1609697069349" />
+    <state x="371" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609694838337">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1609694838337" />
+    <state x="269" y="0" key="CommitChangelistDialog2" timestamp="1609714364397">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="269" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1609714364397" />
+    <state x="641" y="45" key="FileChooserDialogImpl" timestamp="1609714264003">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="641" y="45" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1609714264003" />
+    <state width="815" height="129" key="GridCell.Tab.0.bottom" timestamp="1609714364530">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="815" height="129" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1609714364530" />
+    <state width="815" height="129" key="GridCell.Tab.0.center" timestamp="1609714364530">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="815" height="129" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1609714364530" />
+    <state width="815" height="129" key="GridCell.Tab.0.left" timestamp="1609714364529">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="815" height="129" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1609714364529" />
+    <state width="815" height="129" key="GridCell.Tab.0.right" timestamp="1609714364530">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="815" height="129" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1609714364530" />
+    <state width="815" height="129" key="GridCell.Tab.1.bottom" timestamp="1609714364531">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="815" height="129" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1609714364531" />
+    <state width="815" height="129" key="GridCell.Tab.1.center" timestamp="1609714364530">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="815" height="129" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1609714364530" />
+    <state width="815" height="129" key="GridCell.Tab.1.left" timestamp="1609714364530">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="815" height="129" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1609714364530" />
+    <state width="815" height="129" key="GridCell.Tab.1.right" timestamp="1609714364531">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="815" height="129" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1609714364531" />
+    <state width="887" height="282" key="GridCell.Tab.2.bottom" timestamp="1609672080312">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="887" height="282" key="GridCell.Tab.2.bottom/0.0.1280.689@0.0.1280.689" timestamp="1609672080312" />
+    <state width="887" height="282" key="GridCell.Tab.2.center" timestamp="1609672080312">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="887" height="282" key="GridCell.Tab.2.center/0.0.1280.689@0.0.1280.689" timestamp="1609672080312" />
+    <state width="887" height="282" key="GridCell.Tab.2.left" timestamp="1609672080312">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="887" height="282" key="GridCell.Tab.2.left/0.0.1280.689@0.0.1280.689" timestamp="1609672080312" />
+    <state width="887" height="282" key="GridCell.Tab.2.right" timestamp="1609672080312">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="887" height="282" key="GridCell.Tab.2.right/0.0.1280.689@0.0.1280.689" timestamp="1609672080312" />
+    <state x="171" y="3" key="Maven.ArtifactSearchDialog" timestamp="1609579171086">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="171" y="3" key="Maven.ArtifactSearchDialog/0.0.1280.689@0.0.1280.689" timestamp="1609579171086" />
+    <state x="233" y="0" width="914" height="689" key="SettingsEditor" timestamp="1609679694082">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="0" width="914" height="689" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1609679694082" />
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1609672119133">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="337" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1609672119133" />
+    <state x="28" y="49" key="new project wizard" timestamp="1609688314394">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="28" y="49" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1609688314394" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/waimaidome$UserApplication.ic" NAME="UserApplication Coverage Results" MODIFIED="1609698037904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.snowy.southwind.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user" />
+        <module name="menu" />
+        <module name="configServer" />
+        <module name="allzuul" />
+        <module name="account" />
+        <module name="order" />
+        <module name="aispringcloud-api" />
+        <module name="menus" />
+        <module name="allclient" />
+        <module name="eurekaserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="menus" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account" options="-parameters" />
+      <module name="aispringcloud-api" options="-parameters" />
+      <module name="allclient" options="-parameters" />
+      <module name="allzuul" options="-parameters" />
+      <module name="configServer" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="menu" options="-parameters" />
+      <module name="menus" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="waimaidome" options="-parameters" />
+    </option>
+  </component>
+</project>

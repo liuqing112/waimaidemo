@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>推荐</title>
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            transform-style: preserve-3d;
+            width: 1100px;
+        }
+        section .card{
+            position: relative;
+            width: 320px;
+            height: 320px;
+            margin: 20px;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+        section .card .box{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: 1s ease;
+        }
+        section .card:hover .box{
+            transform: rotateY(180deg);
+        }
+        section .card .box .imgBx{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        section .card .box .imgBx img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        section .card .box .contentBx{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #333;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-style: preserve-3d;
+            transform: rotateY(180deg);
+        }
+        section .card .box .contentBx div{
+            transform-style: preserve-3d;
+            padding: 20px;
+            background: linear-gradient(45deg,#fe0061,#ffeb3b);
+            transform: translateZ(100px);
+        }
+        section .card .box .contentBx div h2{
+            color: #fff;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        section .card .box .contentBx div p{
+            color: #fff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<a href="index.html"><button class="layui-btn layui-btn-warm layui-btn-radius">首页</button></a>&nbsp;
+<a href="/account/logout/user"><button class="layui-btn layui-btn-warm layui-btn-radius">退出</button></a>
+<section>
+    <div class="card">
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/1.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <div>
+                    <h2>圣诞姜饼人</h2>
+                    <p>¥4</p>
+                    <p>在英国还流传着一个传说，未婚女子吃下姜饼，即能遇见理想的伴侣。每到盛大的节日，大人们就会将各种形状如心形、人形的姜饼送给孩子们，或偷偷地放入孩子们期待的袜子内。 渐渐的，姜饼屋变成了在世界各地风靡的新年礼物。让期待的心承载着节日里的别样牵挂。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/2.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <div>
+                    <h2>拿铁</h2>
+                    <p>¥18</p>
+                    <p>“拿铁”是意大利文“Latte”的 音译，代表“牛奶”。拿铁咖啡(CoffeeLatte)是花式咖啡的一种，是咖啡与牛奶交融的极至之作。意式拿铁咖啡为纯牛奶加咖啡，美式拿铁则将部分牛奶替换成奶泡，本地的拿铁多为此种。
+                        那句著名的“我不在咖啡馆，就在去咖啡馆的路上”是一位音乐家在维也纳说出来的。维也纳的空气里，永远都飘荡着音乐和拿铁(Latte)咖啡的味道。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/3.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <div>
+                    <h2>白云朵朵瑞纳冰</h2>
+                    <p>¥16</p>
+                    <p>经典的香草风味瑞纳冰
+                        口感如云朵般柔和绵密
+                        头顶一朵 「香草风味奶油」
+                        点缀上甜蜜焦糖Topping
+                        倍感香甜冰爽，奏响双重甜蜜</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/4.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <div>
+                    <h2>椰子ok瑞纳冰</h2>
+                    <p>¥16</p>
+                    <p>有一样水果，是夏天必不可少的，那就是 椰子。
+                        而这款「 椰子OK瑞纳冰」可不简单 ，是可以 一眼就看到椰子碎片果肉的冰饮，满满的椰子碎片工工整整的码放在奶油的上面，下足了功夫。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/5.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <div>
+                    <h2>巧克力瑞纳冰</h2>
+                    <p>¥16</p>
+                    <p>当冰沙遇见香醇 巧克力🍫
+                        是专属夏日的极致冰爽
+                        一杯巧克力瑞纳冰
+                        经典又不失惊艳</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="box">
+            <div class="imgBx">
+                <img src="/images/6.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <div>
+                    <h2>冲绳陨石拿铁</h2>
+                    <p>¥20</p>
+                    <p>陨石拿铁”里面，真的有大大小小的黑色“陨石”哟~既像海面上漂浮的冰块，又像小小的陨石一样，不停的撞击着你的牙齿。这个软软的，很Q嫩的“陨石”，其实是黑糖口味的寒天晶球。外加浓缩咖啡、牛奶、黑糖糖浆和原味糖浆，搭配的口感异常香滑。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script  src="layui/layui.js" charset="utf-8"></script>
